@@ -1,16 +1,140 @@
-# React + Vite
+# User Management Application 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **React-based User Management Application** built with full CRUD functionality using **JSONPlaceholder API**. This project demonstrates modern React concepts like Hooks, Routing, API handling, form validation, and responsive UI design.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+https://usermanagement-application.netlify.app/
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
 
-## Expanding the ESLint configuration
+* ✅ Fetch users from API
+* ✅ Display user list
+* ✅ Create new user
+* ✅ Update existing user
+* ✅ Delete user
+* ✅ View user details
+* ✅ Search users by name
+* ✅ Form validation
+* ✅ Loading state handling
+* ✅ Error handling
+* ✅ Responsive design
+* ✅ Clean UI with CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+* **React.js**
+* **React Router DOM**
+* **Axios**
+* **CSS3**
+* **JSONPlaceholder API**
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── pages/
+│   ├── Home.jsx
+│   ├── UserDetails.jsx
+├── services/
+│   ├── userApi.js
+├── styles/
+│   ├── Home.css
+│   ├── UserDetails.css
+├── App.jsx
+├── main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sudhanshuthakur108-cpu/user-management-app.git
+```
+
+Go into the project folder:
+
+```bash
+cd user-management-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🔄 CRUD Operations
+
+### Create User
+
+Adds a new user using POST request.
+
+### Read Users
+
+Fetches all users from API using GET request.
+
+### Update User
+
+Updates existing user data using PUT request.
+
+### Delete User
+
+Deletes user from UI using DELETE request.
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped in understanding:
+
+* React Hooks (`useState`, `useEffect`)
+* Controlled Components
+* API Integration
+* Routing and Dynamic Routes
+* State Management
+* Form Handling
+* Conditional Rendering
+* Error Handling
+* Responsive CSS Design
+
+---
+
+## 📷 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 👨‍💻 Author
+
+**Sudhanshu Thakur**
+
+GitHub: https://github.com/sudhanshuthakur108-cpu
+
+---
+
+## ⭐ Future Improvements
+
+* Add authentication
+* Use localStorage for persistence
+* Add toast notifications
+* Improve UI animations
+* Add pagination
