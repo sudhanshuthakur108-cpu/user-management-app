@@ -117,10 +117,6 @@ This project helped in understanding:
 
 ---
 
-## 📷 Screenshots
-
-(Add screenshots here)
-
 ---
 
 ## 👨‍💻 Author
